@@ -1,0 +1,152 @@
+body
+{
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+#logo
+{
+	padding-right: 1220px;
+}
+
+.navigation
+{
+	padding-right: 25px;
+	padding-left: 25px;
+}
+
+.navigation:hover
+{
+	color : #0065FC;
+	border-top: solid 1px;
+	border-top-color: #0065FC;
+	padding-top: 35px;
+	
+}
+
+.inscrire
+{
+	color: #0065FC ;
+	padding-left: 25px;
+}
+
+#trouvez p
+{
+	margin-top: -15px;
+	margin-bottom: 20px;
+}
+
+#trouvez h1
+{
+	margin-bottom: 25px;
+}
+
+#barre
+{
+	margin-bottom: 20px;
+}
+
+#recherche
+{
+	padding-top: 25px;
+}
+
+#barre i
+{
+	border: 1px solid;
+	border-radius: 10px 0px 0px 10px;
+	padding: 15px;
+	background-color:  #F2F2F2;
+	border-color: #F2F2F2 ;
+}
+
+input
+{
+	border: 1px solid;
+	padding: 15px;
+	border-color: #F2F2F2 ;
+} 
+
+.boutonR
+{
+	border: 1px solid;
+	border-radius: 0px 10px 10px 0px;
+	padding: 15px;
+	background-color:  #0065FC;
+	border-color: #F2F2F2 ;
+}
+
+#barre strong
+{
+	color:white;
+}
+
+section a
+{
+	color: black;
+}
+
+#Filtres a
+{
+	text-decoration: none;
+	color: grey;
+}
+
+#Filtres a:hover
+{
+	color: #0065FC;
+}
+
+#Filtres p
+{
+	font-weight: bold;
+}
+
+#Filtres
+{
+	display: flex;
+	align-items: center;
+}
+
+#Filtres p
+{
+	margin-right: 10px;
+}
+
+.filtres
+{
+	
+	border: 2px solid;
+	border-radius: 30px;
+	margin: 10px;
+	padding: 0px 25px 0px 0px;
+	border-color: #F2F2F2;
+}
+
+.filtres:hover
+{
+	border-color:#DEEBFF;
+}
+
+#Filtres i
+{
+	
+	padding: 12px;
+	background-color:  #DEEBFF;
+	margin-right: 10px;
+	border: 1px solid;
+	border-radius: 30px;
+	color:#0065FC ;
+	border-color: #F2F2F2;
+}
+
+#info i
+{
+	padding: 12px;
+	background-color:  white;
+	margin-right: 10px;
+	border: 1px solid;
+	border-radius: 30px;
+	color:#0065FC ;
+	border-color: #F2F2F2;
+}

@@ -1,0 +1,71 @@
+@media screen and (max-width: 1024px)
+{
+    
+    body
+    {
+       margin-left: 5%;
+       margin-right: 5%;
+       font-size: 10px;
+    }
+
+    #logo
+    {
+        margin-bottom: 25px;
+    }
+
+    .inscrire
+    {
+        position: absolute;
+        top: 25px;
+        right: 25px;
+    }
+
+    .n
+    {
+        border-bottom: solid 2px;
+        border-bottom-color: #F2F2F2;
+        padding-bottom: 15px;
+    }
+
+    .navigation
+    {
+       padding-right: 15%;
+       padding-left: 15%;
+       border-bottom: solid 2px;
+       border-bottom-color: #F2F2F2;
+       padding-bottom: 15px;
+    }
+
+    .navigation:hover
+    {
+        border-top: none;
+        border-bottom: solid 2px;
+        border-bottom-color: #0065FC;
+        padding-bottom: 15px;
+    }
+
+    #Filtres
+    {
+        display: flex;
+        justify-content: flex-start;
+        flex-flow: column;
+    }
+
+    #first
+    {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0%;
+    }
+
+    .hA 
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #populaire
+    {
+      
+    }
+}
