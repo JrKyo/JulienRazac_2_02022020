@@ -1,9 +1,89 @@
-@media screen and (max-width: 1000px)
+@media all and (max-device-width: 480px)
 {
 
-    body 
+    header  /*HEADER*/
+    {
+        flex-wrap: wrap-reverse;
+        margin: 0px;
+        padding-bottom: 0px;
+    }
+
+    #logo
+    {
+        top:30px;
+        left: 20px;
+    }
+
+    .n
     {
         margin: 0px;
-        background-color: black;
+        width: 100%;
+    }
+
+    .n > a 
+    {
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+        border-bottom: solid 3px #DEEBFF;
+    }
+
+    header > a
+    {
+        width: 150px;
+        height: 57px;
+        margin-bottom: 0px;
+        margin-bottom: 10px;
+    }
+
+    .n > a:hover
+    {
+        border-bottom: solid 3px #0065FC;
+        border-top: solid 3px white;
+    }
+
+
+    .inscrire
+    {
+        position: absolute;
+        top: 25px;
+        right: 5px;
+    }
+
+   
+    #Filtres
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #first
+    {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0%;
+    }
+
+    .hA 
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .box
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .un, .deux, .quatre, .cinq
+    {
+        margin: 0px;
+    }
+
+    #Footer
+    {
+        display: flex;
+        flex-direction: column;
     }
 }

@@ -1,33 +1,64 @@
-body
+
+
+header
 {
-	margin-left: 100px;
-	margin-right: 100px;
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: 5px;
+	margin-left: 5px;
+	padding-bottom: 20px;
+	justify-content: flex-end;
+}
+
+.n
+    {
+        display: flex;
+        margin-left: 95px;    
+    }
+
+.n > a
+{
+	text-decoration: none;
+	color:black;
+	display: flex;
+	width: 150px ;
+	height:60px;
+	align-items: flex-end;
+	justify-content: center;
+	border-top: solid 3px white;
+}
+
+.n > a:hover
+{
+	font-weight: bold;
+	color : #0065FC;
+	border-top: solid 3px #0065FC;       
+}
+
+header > a
+{
+	text-decoration: none;
+	font-weight: bold;
+	color: #0065FC;
+	display: flex;
+	width: 150px;
+	height: 60px;
+	align-items: flex-end;
+	justify-content: center;
+	border-top: solid 3px white;
+}
+
+header > a:hover
+{
+	border-top: solid 3px #0065FC;
 }
 
 #logo
 {
-	padding-right: 1220px;
-}
+	position: absolute;
+	top : 30px;
+	left: 50px;
 
-.navigation
-{
-	padding-right: 25px;
-	padding-left: 25px;
-}
-
-.navigation:hover
-{
-	color : #0065FC;
-	border-top: solid 1px;
-	border-top-color: #0065FC;
-	padding-top: 35px;
-	
-}
-
-.inscrire
-{
-	color: #0065FC ;
-	padding-left: 25px;
 }
 
 #trouvez p
