@@ -3,7 +3,7 @@ img
     border-radius: 15px;
 }
 
-.imageA
+.imageH
 {
     background-size: cover;
     width: 280px;
@@ -11,13 +11,13 @@ img
     margin-bottom: 10px;
 }
 
-#hebergements
+#bloc-hebergements
 {
     border: 1px solid;   
     border-radius: 25px;
     background-color:  #F2F2F2;
     border-color: transparent;
-    margin-right: 70px;
+    margin-right: 100px;
     padding: 25px;
 }
 
@@ -30,7 +30,7 @@ img
     padding: 25px;
 }
 
-#first
+#bloc-HP
 {
     display: flex;
     justify-content: flex-start;
@@ -45,7 +45,7 @@ img
     bottom: -25px;
 }
 
-.A
+.fenetre-hebergement
 {
     display: flex;
     flex-flow: column;
@@ -58,7 +58,7 @@ img
     margin: 15px;
 }
 
-.hA
+.flexH
 {
     display: flex;
 }
@@ -68,7 +68,7 @@ h1 i
     margin-left: 250px;
 }
 
-.B
+.fenetre-populaire
 {
     display: flex;
 
@@ -81,30 +81,30 @@ h1 i
     margin-top: 35px;
 }
 
-.blue i
+.star-blue i
 {
     color: #0065FC;
 }
 
-.grey i
+.star-grey i
 {
     color: #F2F2F2;
 }
 
-.C
+.bloc-imageP
 {
     width: 100%;
     height: 100%;
 }
 
-.D
+.info-fenetre-populaire
 {
     position: relative;
     width: 100%;
     display: flex;
     flex-direction: column;
 }
-.lol
+.star-populaire-position
 {
     position: absolute;
     bottom: 1px;
@@ -112,7 +112,6 @@ h1 i
 
 .imageP
 {
-    background-size: cover;
     width: 200px;
     height: 160px;
 }
@@ -190,7 +189,8 @@ strong
 
 .un
 {
-    margin-right: 50px;
+    margin-left: 95px;
+    margin-right: 65px;
 }
 
 .deux
@@ -200,11 +200,17 @@ strong
 
 .quatre
 {
-    margin-right: 50px;
-    margin-left: 50px;
+    margin-right: 65px;
+    margin-left: 65px;
 }
 
 .cinq
 {
     margin-bottom: 50px;
+    margin-right: 95px;
+}
+
+.six 
+{
+    margin-right: 95px;
 }

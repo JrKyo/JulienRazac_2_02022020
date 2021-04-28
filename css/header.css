@@ -1,5 +1,4 @@
 
-
 header
 {
 	display: flex;
@@ -10,13 +9,13 @@ header
 	justify-content: flex-end;
 }
 
-.n
+.navigation
     {
         display: flex;
         margin-left: 95px;    
     }
 
-.n > a
+.navigation > a
 {
 	text-decoration: none;
 	color:black;
@@ -28,7 +27,7 @@ header
 	border-top: solid 3px white;
 }
 
-.n > a:hover
+.navigation > a:hover
 {
 	font-weight: bold;
 	color : #0065FC;
@@ -117,59 +116,58 @@ section a
 	color: black;
 }
 
-#Filtres a
+#filtres
 {
-	text-decoration: none;
-	color: grey;
+	margin-top: 30px;
+	margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+   
+#filtres > p
+{
+    font-weight: bold;
+    margin-right: 30px;
+}
+   
+#filtres > a
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 44px;
+    background-color: white ;
+    border: solid 3px #f2f2f2;
+    border-radius: 50px 50px 50px 50px;
+	padding-right: 1em;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
-#Filtres a:hover
+#filtres > a > i 
 {
-	color: #0065FC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #DEEBFF;
+    color: #0065FC;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 0.5em;
+    margin-left: -5px;
+}
+   
+#filtres > a:hover
+{
+    background-color: #f2f2f2 ;
 }
 
-#Filtres p
-{
-	font-weight: bold;
-}
-
-#Filtres
-{
-	display: flex;
-	align-items: center;
-}
-
-#Filtres p
-{
-	margin-right: 10px;
-}
-
-.filtres
-{
-	
-	border: 2px solid;
-	border-radius: 30px;
-	margin: 10px;
-	padding: 0px 25px 0px 0px;
-	border-color: #F2F2F2;
-}
-
-.filtres:hover
-{
-	border-color:#DEEBFF;
-}
-
-#Filtres i
-{
-	
-	padding: 12px;
-	background-color:  #DEEBFF;
-	margin-right: 10px;
-	border: 1px solid;
-	border-radius: 30px;
-	color:#0065FC ;
-	border-color: #F2F2F2;
-}
 
 #info i
 {

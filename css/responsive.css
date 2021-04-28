@@ -14,13 +14,13 @@
         left: 20px;
     }
 
-    .n
+    .navigation
     {
         margin: 0px;
         width: 100%;
     }
 
-    .n > a 
+    .navigation > a 
     {
         width: 50%;
         justify-content: center;
@@ -36,7 +36,7 @@
         margin-bottom: 10px;
     }
 
-    .n > a:hover
+    .navigation > a:hover
     {
         border-bottom: solid 3px #0065FC;
         border-top: solid 3px white;
@@ -51,32 +51,82 @@
     }
 
    
-    #Filtres
+    #filtres > p 
     {
-        display: flex;
-        flex-direction: column;
+        width: 100%;
     }
 
-    #first
+    #filtres > a
+    {
+        margin-left: 0px;
+    }
+
+
+    #populaire
+    {
+        border-radius: 0px;
+        padding: 0px;
+    }
+
+    #bloc-HP
     {
         display: flex;
         flex-direction: column-reverse;
-        padding: 0%;
     }
 
-    .hA 
+    .imageP
+    {
+        width: 150px;
+        height: 160px;
+    }
+
+    .flexH
     {
         display: flex;
         flex-direction: column;
     }
+
     
+
+    h1 i
+    {
+        margin-left: 50px;
+    }
+    
+    .fenetre-populaire
+    {
+        margin-left: 5px;
+    }
+
+    #bloc-hebergements
+    {
+        background-color: white;
+        margin-right: 0px;
+        padding: 0px;
+    }
+
+    .fenetre-hebergement
+    {
+        padding: 0px;
+        margin: 0px 0px 15px 0px;
+        box-shadow: 0px 5px #F2F2F2;;
+    }
+
+    .imageH
+    {
+        width: 350px;
+        height: 125px;
+        margin-bottom: 10px;
+    }
+
     .box
     {
         display: flex;
         flex-direction: column;
     }
 
-    .un, .deux, .quatre, .cinq
+    
+    .un, .deux, .quatre, .cinq, .six
     {
         margin: 0px;
     }
