@@ -1,4 +1,4 @@
-@media all and (max-device-width: 480px)
+@media all and (max-width: 480px)
 {
 
     header  /*HEADER*/
@@ -42,15 +42,11 @@
         border-top: solid 3px white;
     }
 
-
-    .inscrire
+    #recherche
     {
-        position: absolute;
-        top: 25px;
-        right: 5px;
+        margin-left: 0px;
     }
 
-   
     #filtres > p 
     {
         width: 100%;
@@ -72,6 +68,8 @@
     {
         display: flex;
         flex-direction: column-reverse;
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
     .imageP
@@ -85,8 +83,6 @@
         display: flex;
         flex-direction: column;
     }
-
-    
 
     h1 i
     {
@@ -119,6 +115,11 @@
         margin-bottom: 10px;
     }
 
+    #Activités
+    {
+        margin-left: 0px;
+    }
+
     .box
     {
         display: flex;
@@ -129,11 +130,41 @@
     .un, .deux, .quatre, .cinq, .six
     {
         margin: 0px;
+        margin-bottom: 25px;
+    }
+
+    .big img
+    {
+        background-size: cover;
+        width: 350px;
+        height: 125px;
+    }
+
+    .medium img
+    {
+        background-size: cover;
+        width: 350px;
+        height: 125px; 
+    }
+
+    .small img
+    {
+        background-size: cover;
+        width: 350px;
+        height: 125px;
     }
 
     #Footer
     {
         display: flex;
         flex-direction: column;
+    }
+
+    .paragraphe-footer
+    {
+        margin-left: 0px; 
+        margin-right: 0px;
+        padding-right: 0px;
+        margin-bottom: 25px;
     }
 }

@@ -37,6 +37,8 @@ img
 
     margin-bottom: 50px;
     margin-top: 50px;
+    margin-left: 75px;
+    margin-right: 75px;
 }
 
 .afficher
@@ -52,7 +54,7 @@ img
 
     border: 2px solid;
     border-radius: 15px;
-    border-color: white;
+    border-color: transparent;
     background-color: white;
     padding: 10px;
     margin: 15px;
@@ -116,9 +118,9 @@ h1 i
     height: 160px;
 }
 
-strong
+#Activités
 {
-    font-style: bold;
+    margin-left: 75px;
 }
 
 .big
