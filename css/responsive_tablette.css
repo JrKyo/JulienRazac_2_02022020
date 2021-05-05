@@ -1,0 +1,71 @@
+@media screen and (min-width: 768px) and (max-width: 1024px)
+{
+    #logo
+    {
+        top:30px;
+        left: 15px;
+    }
+
+    #recherche
+    {
+        margin-left: 15px;
+    }
+
+    .imageP
+    {
+        width: 300px;
+        height: 200px;
+    }
+
+    #bloc-HP
+    {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .flexH
+    {
+        display: flex;
+        flex-wrap: inherit;   
+    }
+
+    #bloc-hebergements
+    {
+        margin-right: 0px;
+        flex-wrap: wrap;
+        margin-top: 25px;
+    }
+
+    .box
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #Activités
+    {
+        margin-left: 15px;
+    }
+    
+    .un, .deux, .quatre, .cinq, .six
+    {
+        margin: 0px;
+        margin-bottom: 25px;
+    }
+
+    #Footer
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .paragraphe-footer
+    {
+        margin-left: 0px; 
+        margin-right: 0px;
+        padding-right: 0px;
+        margin-bottom: 25px;
+    }
+}

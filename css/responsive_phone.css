@@ -1,7 +1,7 @@
 @media all and (max-width: 480px)
 {
 
-    header  /*HEADER*/
+    header 
     {
         flex-wrap: wrap-reverse;
         margin: 0px;

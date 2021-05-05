@@ -11,8 +11,7 @@ header
 
 .navigation
     {
-        display: flex;
-        margin-left: 95px;    
+        display: flex;       
     }
 
 .navigation > a
@@ -57,7 +56,6 @@ header > a:hover
 	position: absolute;
 	top : 30px;
 	left: 50px;
-
 }
 
 #trouvez p
