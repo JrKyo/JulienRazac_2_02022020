@@ -1,9 +1,21 @@
-@media screen and (min-width: 768px) and (max-width: 1024px)
+@media screen and (min-width: 481px) and (max-width: 1024px)
 {
     #logo
     {
         top:30px;
         left: 15px;
+    }
+
+    .navigation > a
+    {
+        width: 100px ;
+	    height: 60px;
+    }
+
+    header > a
+    {
+        width: 75px;
+	    height: 60px;
     }
 
     #recherche
@@ -38,21 +50,61 @@
         margin-top: 25px;
     }
 
-    .box
-    {
-        display: flex;
-        flex-direction: column;
-    }
-
     #Activités
     {
         margin-left: 15px;
     }
-    
-    .un, .deux, .quatre, .cinq, .six
+
+    .box
     {
-        margin: 0px;
-        margin-bottom: 25px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .big img
+    {
+        width: 325px;
+        height: 500px;
+    }
+
+    .medium img
+    {
+        width: 325px;
+        height: 225px; 
+    }
+
+    .small img
+    {
+        width: 325px;
+        height: 175px;
+    }
+
+    .un
+    {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .deux
+    {
+        margin-bottom: 50px;
+    }
+
+    .quatre
+    {
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+
+    .cinq
+    {
+        margin-bottom: 50px;
+        margin-right: 25px;
+    }
+
+    .six 
+    {
+        margin-right: 25px;
     }
 
     #Footer

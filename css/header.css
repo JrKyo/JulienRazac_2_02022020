@@ -10,9 +10,9 @@ header
 }
 
 .navigation
-    {
-        display: flex;       
-    }
+{
+    display: flex;       
+}
 
 .navigation > a
 {
