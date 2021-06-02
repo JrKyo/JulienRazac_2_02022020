@@ -14,6 +14,7 @@
 	</head>
 
 	<body>
+		
 			<header>
 				<img id="logo" src="logo/logoreservia.png" alt="logo" width="100"/>
 				
@@ -31,7 +32,9 @@
 				</div>
 
 				<div id="barre">
-					<i class="fas fa-map-marker-alt"></i><input type="text" name="search" placeholder="Marseille, France"><button class="boutonR" name="Rechercher" type="submit" value="Rechercher" ><strong>Rechercher</strong></button>
+					<i class="fas fa-map-marker-alt"></i>
+					<input type="text" name="search" placeholder="Marseille, France">
+					<button class="boutonR" name="Rechercher" type="submit" value="Rechercher"><strong>Rechercher</strong></button>
 				</div>
 
 				<div id="filtres">
@@ -45,9 +48,10 @@
 				<div id="info">
 					<p><i class="fas fa-info"></i>Plus de 500 logements sont disponibles dans cette ville</p>
 				</div>
-			</nav>		
-
-			<section id="bloc-HP">								
+			</nav>
+		
+			<span class="blocA">
+				<section id="bloc-HP">								
 				<div id="bloc-hebergements">
 					<h1 id="Hébergements">Hébergements à Marseille</h1>
 
@@ -171,7 +175,7 @@
 			    </div> 
 	
 			<div id="populaire">
-					<h1>Les plus populaires <i class="fas fa-chart-line"></i></h1>
+					<h1 id="pop">Les plus populaires <i class="fas fa-chart-line"></i></h1>
 
 				<div class="fenetre-populaire">
 
@@ -244,41 +248,41 @@
 			
 			</section>
 
-			<section>
+			<section id="bloc-activite">
 				<h1 id="Activités">Activités à Marseille</h1>
 				
 			<div class="box">
 				
-				<div class="big un">
-					<a href="#"><img src="activites/4_small/Vieux_port.jpg" alt="Vieux_port"></a> <br>
-					<span><strong>Vieux Port</strong></span>
+				<div class="big un title">
+					<a href="#"><img class="imageA" src="activites/4_small/Vieux_port.jpg" alt="Vieux_port"></a> <br>
+					<span class="marge"><strong>Vieux Port</strong></span>
 				</div>
 			
 				<div class="double">
-					<div class="medium deux">
+					<div class="medium deux title">
 						<a href="#"><img class="imageA" src="activites/4_small/Fort_de_Pomegues.jpg" alt="Fort_de_Pomegues"></a> <br>
 						<span><strong>Fort de Pomègues</strong></span>
 					</div>
 						
-					<div class="small">
-						<a href="#"><img src="activites/4_small/Iles_du_Frioul.jpg" alt="Iles_du_Frioul"></a> <br>
+					<div class="small title">
+						<a href="#"><img class="imageA" src="activites/4_small/Iles_du_Frioul.jpg" alt="Iles_du_Frioul"></a> <br>
 						<span><strong>Iles du Frioul</strong></span>
 					</div>
 				</div>
 																	
-					<div class="big quatre">
-						<a href="#"><img src="activites/4_small/Parc_National_des_Calanques.jpg" alt="Parc_National_des_Calanques"></a> <br>
+					<div class="big quatre title">
+						<a href="#"><img class="imageA" src="activites/4_small/Parc_National_des_Calanques.jpg" alt="Parc_National_des_Calanques"></a> <br>
 						<span><strong>Parc National des Calanques</strong></span>
 					</div>
 		
 				<div class="double">
-					<div class="small cinq">
-					<a href="#"><img src="activites/4_small/Notre-Dame-de-la-Garde.jpg" alt="Notre-Dame-de-la-Garde"></a> <br>
+					<div class="small cinq title">
+					<a href="#"><img class="imageA" src="activites/4_small/Notre-Dame-de-la-Garde.jpg" alt="Notre-Dame-de-la-Garde"></a> <br>
 					<span><strong>Notre-Dame-de-la-Garde</strong></span>
 					</div>
 					
-					<div class="medium six">
-						<a href="#"><img src="activites/4_small/Parc_Longchamp.jpg" alt="Parc_Longchamg"></a> <br>
+					<div class="medium six title">
+						<a href="#"><img class="imageA" src="activites/4_small/Parc_Longchamp.jpg" alt="Parc_Longchamg"></a> <br>
 						<span><strong>Parc Longchamp</strong></span>
 					</div>
 				</div>	
@@ -286,25 +290,33 @@
 			</div>
 									
 			</section>
-
+		</span>
+					
 			<footer id="Footer">	
 				<div class="paragraphe-footer">
-					<strong>A propos</strong><br/>
-					<a href="#">Fonctionnement du site</a><br/>
-					<a href="#">Conditions générales de ventes</a><br/>
-					<a href="#">Données et confidentialité</a>
+					<h3><strong>A propos</strong></h3>
+					<ul>
+						<li><a href="#">Fonctionnement du site</a></li>
+						<li><a href="#">Conditions générales de ventes</a></li>
+						<li><a href="#">Données et confidentialité</a></li>
+					</ul>
+					
 				</div>
 				
 				<div class="paragraphe-footer">
-					<strong>Nos hébergements</strong><br/>
-					<a href="#">Charte qualité</a><br/>
-					<a href="#">Soumettre votre hôtel</a>
+					<h3><strong>Nos hébergements</strong></h3>
+					<ul>
+						<li><a href="#">Charte qualité</a></li>
+						<li><a href="#">Soumettre votre hôtel</a></li>
+					</ul>		
 				</div>
 				
 				<div class="paragraphe-footer">
-					<strong>Assistance</strong><br/>
-					<a href="#">Centre d'aide</a><br/>
-					<a href="#">Nous contacter</a>
+					<h3><strong>Assistance</strong></h3>
+					<ul>
+						<li><a href="#">Centre d'aide</a></li>
+						<li><a href="#">Nous contacter</a></li>
+					</ul>					
 				</div>
 			</footer>
 

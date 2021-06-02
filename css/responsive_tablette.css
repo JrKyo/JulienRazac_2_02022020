@@ -12,6 +12,11 @@
 	    height: 60px;
     }
 
+    header
+    {
+        margin-right: 25px;
+    }
+
     header > a
     {
         width: 75px;
@@ -29,6 +34,11 @@
         height: 200px;
     }
 
+    .info-fenetre-populaire
+    {
+        margin: 25px
+    }
+
     #bloc-HP
     {
         display: flex;
@@ -40,7 +50,13 @@
     .flexH
     {
         display: flex;
-        flex-wrap: inherit;   
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .imageH
+    {
+        width: 600px;
     }
 
     #bloc-hebergements

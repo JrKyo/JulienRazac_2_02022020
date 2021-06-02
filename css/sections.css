@@ -1,14 +1,14 @@
-img
+#Hébergements
 {
-    border-radius: 15px;
+    margin-left: 25px;
 }
 
 .imageH
 {
-    background-size: cover;
-    width: 280px;
+    width: 350px;
     height: 180px;
     margin-bottom: 10px;
+    border-radius: 15px 15px 0px 0px;
 }
 
 #bloc-hebergements
@@ -17,8 +17,13 @@ img
     border-radius: 25px;
     background-color:  #F2F2F2;
     border-color: transparent;
-    margin-right: 100px;
+    margin-right: 50px;
     padding: 25px;
+}
+
+#pop
+{
+    margin-left: 25px;
 }
 
 #populaire
@@ -33,7 +38,6 @@ img
 #bloc-HP
 {
     display: flex;
-    justify-content: flex-start;
 
     margin-bottom: 50px;
     margin-top: 50px;
@@ -45,6 +49,7 @@ img
 {
     position: relative;
     bottom: -25px;
+    margin-left: 20px;
 }
 
 .fenetre-hebergement
@@ -56,7 +61,8 @@ img
     border-radius: 15px;
     border-color: transparent;
     background-color: white;
-    padding: 10px;
+    box-shadow: 5px 5px 5px #dbdbdb;
+    padding: 5px;
     margin: 15px;
 }
 
@@ -67,7 +73,7 @@ img
 
 h1 i
 {
-    margin-left: 250px;
+    margin-left: 30%;
 }
 
 .fenetre-populaire
@@ -78,7 +84,8 @@ h1 i
     border-color: transparent;
     background-color: white;
     border-radius: 15px;
-    padding: 10px;
+    box-shadow: 5px 5px 5px #dbdbdb;
+    padding: 5px;
     margin: 15px; 
     margin-top: 35px;
 }
@@ -95,8 +102,7 @@ h1 i
 
 .bloc-imageP
 {
-    width: 100%;
-    height: 100%;
+    width: 85%;
 }
 
 .info-fenetre-populaire
@@ -114,13 +120,30 @@ h1 i
 
 .imageP
 {
-    width: 200px;
+    width: 150px;
     height: 160px;
+    border-radius: 5% 0% 0% 5%;
 }
 
 #Activités
 {
-    margin-left: 75px;
+    margin-left: 100px;
+}
+
+.imageA
+{
+    border-radius: 15px 15px 0px 0px;
+}
+
+.title
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.title span 
+{
+    margin-left: 15px;
 }
 
 .big
@@ -131,12 +154,11 @@ h1 i
     padding-bottom: 25px;
     
     margin-bottom: 50px;
-    box-shadow: 0px 5px #F2F2F2;
+    box-shadow: 5px 5px 5px #dbdbdb;
 }
 
 .big img
 {
-    background-size: cover;
     width: 375px;
     height: 500px;
 }
@@ -149,12 +171,11 @@ h1 i
      padding-bottom: 25px;
     
      margin-bottom: 25px;
-     box-shadow: 0px 5px #F2F2F2;
+     box-shadow: 5px 5px 5px #dbdbdb;
 }
 
 .medium img
 {
-    background-size: cover;
     width: 375px;
     height: 225px; 
 }
@@ -167,12 +188,11 @@ h1 i
     padding-bottom: 25px;
     
     margin-bottom: 25px;
-    box-shadow: 0px 5px #F2F2F2;
+    box-shadow: 5px 5px 5px #dbdbdb;
 }
 
 .small img
 {
-    background-size: cover;
     width: 375px;
     height: 175px;
 }
@@ -180,7 +200,6 @@ h1 i
 .box
 {
     display: flex;
-    align-items: flex-start;
 }
 
 .double
@@ -197,7 +216,7 @@ h1 i
 
 .deux
 {
-    margin-bottom: 50px;
+    margin-bottom: 32px;
 }
 
 .quatre
@@ -208,11 +227,23 @@ h1 i
 
 .cinq
 {
-    margin-bottom: 50px;
+    margin-bottom: 32px;
     margin-right: 95px;
 }
 
 .six 
 {
     margin-right: 95px;
+}
+
+img
+{
+    object-fit: cover;
+}
+
+.blocA
+{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
 }

@@ -1,6 +1,5 @@
 @media all and (max-width: 480px)
 {
-
     header 
     {
         flex-wrap: wrap-reverse;
@@ -26,6 +25,7 @@
         justify-content: center;
         align-items: center;
         border-bottom: solid 3px #DEEBFF;
+        margin-top: 5%;
     }
 
     header > a
@@ -44,7 +44,7 @@
 
     #recherche
     {
-        margin-left: 0px;
+        margin-left: 10px;      
     }
 
     #filtres > p 
@@ -57,11 +57,16 @@
         margin-left: 0px;
     }
 
+    #pop
+    {
+        margin-left: 10px;
+    }
 
     #populaire
     {
         border-radius: 0px;
         padding: 0px;
+        padding-left: 25px;
     }
 
     #bloc-HP
@@ -94,11 +99,18 @@
         margin-left: 5px;
     }
 
+    #Hébergements
+    {
+        margin-left: 15px;
+    }
+
     #bloc-hebergements
     {
         background-color: white;
         margin-right: 0px;
+        margin-left: 0px;
         padding: 0px;
+        padding-left: 25px;
     }
 
     .fenetre-hebergement
@@ -110,9 +122,19 @@
 
     .imageH
     {
-        width: 350px;
+        width: 380px;
         height: 125px;
         margin-bottom: 10px;
+    }
+
+    .afficher
+    {
+        margin-left: 0px;
+    }
+
+    #bloc-activite
+    {
+        margin-left: 10px;
     }
 
     #Activités
