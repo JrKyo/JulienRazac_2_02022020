@@ -240,10 +240,3 @@ img
 {
     object-fit: cover;
 }
-
-.blocA
-{
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-}
