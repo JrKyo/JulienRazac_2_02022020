@@ -38,6 +38,7 @@
 #bloc-HP
 {
     display: flex;
+    justify-content: center;
 
     margin-bottom: 50px;
     margin-top: 50px;
@@ -128,6 +129,13 @@ h1 i
 #Activités
 {
     margin-left: 100px;
+    display: block;
+}
+
+#bloc-activite
+{
+    display: flex;
+    justify-content: center;
 }
 
 .imageA
@@ -200,6 +208,7 @@ h1 i
 .box
 {
     display: flex;
+    
 }
 
 .double
