@@ -75,6 +75,7 @@
     {
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;      
     }
     
     .big img
@@ -103,18 +104,18 @@
 
     .deux
     {
-        margin-bottom: 50px;
+        margin-bottom: 30px;
     }
 
     .quatre
     {
         margin-right: 25px;
-        margin-left: 25px;
+        margin-left: 50px;
     }
 
     .cinq
     {
-        margin-bottom: 50px;
+        margin-bottom: 30px;
         margin-right: 25px;
     }
 
