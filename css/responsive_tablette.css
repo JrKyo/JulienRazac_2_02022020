@@ -39,6 +39,11 @@
         margin: 25px
     }
 
+    h1 i
+    {
+        margin-left: 50%;
+    }
+
     #bloc-HP
     {
         display: flex;
