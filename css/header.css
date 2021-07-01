@@ -5,14 +5,26 @@ body
 
 }
 
-#logo
+#global
 {
-	position: absolute;
-	top : 3%;
-	left: 5%;
+	margin: 0 auto;
+	width: max-content;
 }
 
+
 header
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+.ba
+{
+	margin-left: 75px;
+	margin-top: 25px;
+}
+
+.bb
 {
 	display: flex;
 	flex-wrap: wrap;
@@ -45,7 +57,7 @@ header
 	border-top: solid 3px #0065FC;       
 }
 
-header > a
+.bb > a
 {
 	text-decoration: none;
 	font-weight: bold;
@@ -58,7 +70,7 @@ header > a
 	border-top: solid 3px white;
 }
 
-header > a:hover
+.bb > a:hover
 {
 	border-top: solid 3px #0065FC;
 }
@@ -81,8 +93,8 @@ header > a:hover
 
 #recherche
 {
-	padding-top: 3%;
-	margin-left: 5%;
+	padding-top: 60px;
+	margin-left: 75px;
 }
 
 #barre i

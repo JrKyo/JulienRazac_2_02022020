@@ -8,20 +8,31 @@
 		<link rel="stylesheet" href="css/responsive_phone.css"/>
 		<link rel="stylesheet" href="css/responsive_tablette.css"/>
 		<meta name="viewport" content="width=device-width"/>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 		<script src="https://kit.fontawesome.com/b4e3cbf752.js" crossorigin="anonymous"></script>		
 		<title>Reservia - trouvez votre hébergement pour des vacances de rêve</title>		
 	</head>
 
 	<body>
-		
+
+		<div id="global">
+
 			<header>
-				<img id="logo" src="logo/logoreservia.png" alt="logo" width="100"/>
-				
-				<span class="navigation">				
+
+				<div class="ba">
+					<img id="logo" src="logo/logoreservia.png" alt="logo" width="100"/>
+				</div>
+					
+				<div class="bb">
+					<span class="navigation">				
 					<a href="#Hébergements">Hébergements</a>		
 					<a href="#Activités">Activités</a>
 				</span>
-				<a href="#"><strong>S'inscrire</strong></a>			
+				<a href="#"><strong>S'inscrire</strong></a>	
+				</div>
+								
 			</header>						
 
 			<nav id="recherche">
@@ -49,7 +60,6 @@
 				</div>
 			</nav>
 		
-			<span class="blocA">
 				<section id="bloc-HP">								
 				<div id="bloc-hebergements">
 					<h1 id="Hébergements">Hébergements à Marseille</h1>
@@ -185,13 +195,13 @@
 					<div class="info-fenetre-populaire">
 						<strong>Hôtel Le soleil du matin</strong><br>
 						Nuit à partir de <strong>128€</strong>
-						<span class="star-blue star-populaire-position">
+						<div class="star-blue star-populaire-position">
 								<i class="fas fa-star"></i> 
 								<i class="fas fa-star"></i> 
 								<i class="fas fa-star"></i>
 								<i class="fas fa-star"></i> 
 								<i class="fas fa-star"></i>
-						</span>		
+						</div>		
 					</div>
 										
 				</div>		
@@ -289,10 +299,8 @@
 
 			</div>
 			</div>
-				
-									
+										
 			</section>
-		</span>
 					
 			<footer id="Footer">	
 				<div class="paragraphe-footer">
@@ -321,6 +329,7 @@
 					</ul>					
 				</div>
 			</footer>
+		</div>
 
 	</body>
 </html>
