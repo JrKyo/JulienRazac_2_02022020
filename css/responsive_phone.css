@@ -1,16 +1,26 @@
 @media all and (max-width: 480px)
 {
+    #global
+    {
+	    margin: 0 ;
+	    width: auto;
+    }
+
     header 
     {
-        flex-wrap: wrap-reverse;
+        flex-direction: column;
         margin: 0px;
         padding-bottom: 0px;
     }
 
-    #logo
+    .logo
     {
-        top:30px;
-        left: 20px;
+        margin-left: 15px;
+    }
+
+    .inscrire
+    {
+        margin-top: -160px;
     }
 
     .navigation
@@ -28,8 +38,14 @@
         margin-top: 5%;
     }
 
-    header > a
+    .nav 
     {
+        margin-right: 0px;
+    }
+
+    .nav > a
+    {
+        display: flex;
         width: 150px;
         height: 57px;
         margin-bottom: 0px;

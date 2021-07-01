@@ -2,7 +2,6 @@ body
 {
 	margin: 0px;
 	font-family: "Raleway", Arial;
-
 }
 
 #global
@@ -18,13 +17,13 @@ header
 	justify-content: space-between;
 }
 
-.ba
+.logo
 {
 	margin-left: 75px;
 	margin-top: 25px;
 }
 
-.bb
+.nav
 {
 	display: flex;
 	flex-wrap: wrap;
@@ -57,7 +56,7 @@ header
 	border-top: solid 3px #0065FC;       
 }
 
-.bb > a
+.nav > a
 {
 	text-decoration: none;
 	font-weight: bold;
@@ -70,7 +69,7 @@ header
 	border-top: solid 3px white;
 }
 
-.bb > a:hover
+.nav > a:hover
 {
 	border-top: solid 3px #0065FC;
 }

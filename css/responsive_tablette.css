@@ -1,9 +1,9 @@
 @media screen and (min-width: 481px) and (max-width: 1024px)
 {
-    #logo
+    #global
     {
-        top:30px;
-        left: 15px;
+	    margin: 0 ;
+	    width: auto;
     }
 
     .navigation > a
@@ -12,15 +12,15 @@
 	    height: 60px;
     }
 
-    header
+    .logo
     {
-        margin-right: 25px;
+	    margin-left: 15px;
+	    margin-top: 25px;
     }
-
-    header > a
+    
+    .nav 
     {
-        width: 75px;
-	    height: 60px;
+        margin-right: 0px;
     }
 
     #recherche
